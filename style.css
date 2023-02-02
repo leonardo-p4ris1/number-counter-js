@@ -12,8 +12,8 @@ body{
     place-items: center;
 }
 .container{
-    width: 400px;
-    height: 550px;
+    width: 30%;
+    height: 70%;
     background-color: #101010;
     border-radius: 25px;
     display: flex;
@@ -34,6 +34,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 .buttons-div > div{
