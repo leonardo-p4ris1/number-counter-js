@@ -12,8 +12,8 @@ body{
     place-items: center;
 }
 .container{
-    width: 30%;
-    height: 70%;
+    width: 450px;
+    height: 550px;
     background-color: #101010;
     border-radius: 25px;
     display: flex;
@@ -54,3 +54,9 @@ body{
 #num{
     font-size: 132px;
 }
+@media only screen and (max-width: 480px) {
+    .container {
+      width: 75%;
+      height: 475px;
+    }
+  }
