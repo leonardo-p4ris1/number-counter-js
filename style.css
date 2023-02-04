@@ -3,7 +3,7 @@
     font-family: 'satoshi';
 }
 body{
-    background-color: #1260CC;
+    background-color: #030303;
     margin: 0;
 }
 .grid-container{
@@ -26,7 +26,7 @@ body{
     background-color: #101010;
     padding: 25px;
     border-radius: 25px 25px 0px 0px;
-    color: #1260CC;
+    color: white;
 }
 .buttons-div{
     height: 30%;
@@ -40,7 +40,7 @@ body{
 .buttons-div > div{
     width: 100px;
     height: 45px;
-    background-color: #1260CC;
+    background-color: white;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -58,5 +58,12 @@ body{
     .container {
       width: 75%;
       height: 475px;
+    }
+    #num{
+        font-size: 106px;
+    }
+    .buttons-div > div{
+        width: 85px;
+        height: 40px;
     }
   }
